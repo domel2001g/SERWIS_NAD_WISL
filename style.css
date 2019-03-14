@@ -27,8 +27,8 @@ nav{
 header{
     position: fixed;
     color: white;
-    font-size: 40px;
-    left: 50px;
+    font-size: 100%;
+    left: 5%;
     font-family: 'Monoton', cursive;
 }
 header:hover{
