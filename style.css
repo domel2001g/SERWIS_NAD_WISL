@@ -27,7 +27,7 @@ nav{
 header{
     position: fixed;
     color: white;
-    font-size: 100%;
+    font-size: 270%;
     left: 5%;
     font-family: 'Monoton', cursive;
 }
@@ -51,20 +51,20 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 210%;
     font-weight: 1000;
 }
 li a:hover{
-    transition: 0.8s;
+    transition: 0.6s;
     background-color: rgb(255,255,255, 0.3);
     color: #33FF57;
-    border-radius: 30px;
+    border-radius: 30% 30%;
     padding: 8px 16px;
 }
 main{
     background-color: antiquewhite;
     position: relative;
-    top: 800px;
+    top: 800vm;
     height: 2500px;
     margin-left: 4%;
     margin-right: 4%;
