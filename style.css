@@ -83,6 +83,8 @@ iframe{
     float: left;
     padding-left: 4%;
     margin-top: 5%;  
+    width: 560; 
+    height: 315px;
 }
 footer{
     width: 100%;
