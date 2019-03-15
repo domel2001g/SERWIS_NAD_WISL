@@ -76,7 +76,7 @@ footer{
     opacity: 0.4;
 }
 @media only screen and (max-width: 768px) {
-  header{
+  .logo{
       display: none;
     }
   }
