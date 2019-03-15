@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Monoton">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Inline">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
-        
         <style>
             *{
     margin: 0;
@@ -70,7 +69,7 @@ li a:hover{
 main{
     background-color: antiquewhite;
     position: relative;
-    top: 5vh;
+    top: 14vh;
     height: calc(1000px + 1vh);
     margin-left: 4%;
     margin-right: 4%;
@@ -93,7 +92,8 @@ footer{
                 padding: calc(10px + 2vh);
                 border-radius: 50px;
                 color: #33FF57;
-                width: calc(200px + 1vh);
+                width: calc(500px + 0.3vh);
+                margin: 0 auto;
             }
             input[type=text], [type=email]{
               color: #33FF57;
@@ -109,10 +109,18 @@ footer{
               border-bottom: solid;
               border-color: #33FF57;
             }
-            input[type=button] [type=reset]{
-                border-color: #33FF57;
+            input[type=submit], [type=reset]{
+                border: none;
+                background-color: #33FF57;
+                text-transform: uppercase;
+                padding: 0.7vh;
+                color: dimgrey;
+                font-weight: bolder;
+            }
+            input[type=submit]:hover, [type=reset]:hover{
+                transition: 0.6s;
+                background-color: white;
                 color: #33FF57;
-                
             }
         </style>
     </head>
